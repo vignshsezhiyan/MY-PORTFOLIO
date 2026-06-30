@@ -1,4 +1,4 @@
-# Yogesh Portfolio
+# Vignesh Portfolio
 
 Personal portfolio website built with Vite, React, TypeScript, Tailwind CSS, and shadcn/ui components.
 
