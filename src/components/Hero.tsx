@@ -17,7 +17,7 @@ const Hero = () => {
               </p>
 
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold">
-                Hi, I&apos;m <span className="gradient-text">Yogesh</span>
+                Hi, I&apos;m <span className="gradient-text">Vignesh</span>
               </h1>
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-muted-foreground">
                 Full Stack Developer
@@ -34,7 +34,7 @@ const Hero = () => {
                 <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </Button>
               <Button variant="outline" size="lg" asChild>
-                <a href="/yogesh_res.pdf" download="yogesh_res.pdf">
+                <a href="/Vignesh-Govindhan-Fullstack-Developer.pdf" download="vignesh_resume.pdf">
                   Download Resume
                 </a>
               </Button>
@@ -42,17 +42,17 @@ const Hero = () => {
 
             <div className="flex justify-center gap-4 pt-8">
               <Button variant="ghost" size="icon" asChild>
-                <a href="mailto:yogeshkumar5701@gmail.com" aria-label="Email">
+                <a href="mailto:vigneshgovindhan57@gmail.com" aria-label="Email">
                   <Mail className="h-5 w-5" />
                 </a>
               </Button>
               <Button variant="ghost" size="icon" asChild>
-                <a href="https://github.com/Yogesk12" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <a href="https://github.com/vignshsezhiyan" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                   <Github className="h-5 w-5" />
                 </a>
               </Button>
               <Button variant="ghost" size="icon" asChild>
-                <a href="https://www.linkedin.com/in/yogesh-k-774a98222" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/in/vignesh-g-a92a28244/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                   <Linkedin className="h-5 w-5" />
                 </a>
               </Button>

@@ -84,8 +84,8 @@ const Contact = () => {
           <Card className="p-8 shadow-medium">
             <div className="mb-8 flex items-center justify-center gap-3 text-muted-foreground">
               <Mail className="h-5 w-5" />
-              <a href="mailto:yogeshkumar5701@gmail.com" className="hover:text-primary transition-colors">
-                yogeshkumar5701@gmail.com
+              <a href="mailto:vigneshgovindhan57@gmail.com" className="hover:text-primary transition-colors">
+                vigneshgovindhan57@gmail.com
               </a>
             </div>
 
@@ -150,7 +150,7 @@ const Contact = () => {
 
             <div className="mt-8 pt-8 border-t border-border text-center">
               <Button variant="outline" asChild>
-                <a href="/yogesh_res.pdf" download="yogesh_res.pdf">
+                <a href="/Vignesh-Govindhan-Fullstack-Developer.pdf" download="Vignesh-Govindhan.pdf">
                   Download Resume
                 </a>
               </Button>

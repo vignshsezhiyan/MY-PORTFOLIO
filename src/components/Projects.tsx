@@ -11,6 +11,17 @@ import { ExternalLink } from "lucide-react";
 
 const professionalProjects = [
   {
+    title: "Model Context Provider(MCP)",
+    description: "Developed a secure Model Context Protocol (MCP) server that exposes Worktual APIs as AI-callable tools, enabling seamless integration with AI assistants such as ChatGPT, Claude, and GitHub Copilot.",
+    features: [
+      "Developed and deployed a Model Context Protocol (MCP) server to expose Worktual APIs as AI callable tools for LLM-powered agents",
+      "Implemented OAuth 2.0 authentication and Role-based tool access control for secure AI integration.",
+      "Successfully Integrated our Mcp server with Claude, Copilot and ChatGPT"
+    ],
+    tags: ["Python", "FASTApi", "MySQL", "LLM"],
+    // link:"https://aiccaas.worktual.in/"
+  },
+  {
     title: "AI Contact Centre Platform",
     description: "A scalable CCaaS platform integrated with multiple CRM systems for seamless customer interaction management.",
     features: [

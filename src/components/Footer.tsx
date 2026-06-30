@@ -9,14 +9,14 @@ const Footer = () => {
         <div className="flex flex-col items-center gap-4">
           <div className="flex gap-4">
             <a
-              href="mailto:yogeshkumar5701@gmail.com"
+              href="mailto:vigneshgovindhan57@gmail.com@gmail.com"
               className="text-muted-foreground hover:text-primary transition-colors"
               aria-label="Email"
             >
               <Mail className="h-5 w-5" />
             </a>
             <a
-              href="https://github.com/Yogesk12"
+              href="https://github.com/vignshsezhiyan"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -25,7 +25,7 @@ const Footer = () => {
               <Github className="h-5 w-5" />
             </a>
             <a
-              href="https://www.linkedin.com/in/yogesh-k-774a98222"
+              href="https://www.linkedin.com/in/vignesh-g-a92a28244/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -35,7 +35,7 @@ const Footer = () => {
             </a>
           </div>
           <p className="text-sm text-muted-foreground">
-            © {currentYear} Yogesh.
+            © {currentYear} Vignesh.
           </p>
         </div>
       </div>

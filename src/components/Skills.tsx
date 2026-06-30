@@ -5,37 +5,37 @@ const skillCategories = [
   {
     title: "Frontend",
     icon: Code,
-    skills: ["React.js", "Next.js", "Redux", "HTML5", "CSS3", "SCSS"],
+    skills: ["React.js", "Next.js","Typescript", "Redux", "HTML5", "CSS3", "SCSS"],
     color: "text-primary"
   },
   {
     title: "Backend",
     icon: Server,
-    skills: ["Node.js", "Express.js", "Fastify", "REST APIs", "GraphQL"],
+    skills: ["Node.js", "Express.js", "Fastify","Python"," FastAPI", "REST APIs", "GraphQL"],
     color: "text-primary"
   },
   {
     title: "Database",
     icon: Database,
-    skills: ["MySQL"],
+    skills: ["MySQL","ChromaDB","Redis"],
     color: "text-secondary"
   },
   {
     title: "Authentication & Security",
     icon: Shield,
-    skills: ["JWT", "OAuth 2.0", "Hmac", "crypto", "AES"],
+    skills: ["JWT", "OAuth 2.0", "crypto"],
     color: "text-secondary"
   },
   {
     title: "Tools",
     icon: Wrench,
-    skills: ["Git", "GitHub", "Docker", "CI/CD", "GitHub", "Jenkins", "Bitbucket", "postman", "netlify"],
+    skills: ["Git", "GitHub", "Docker", "CI/CD", "GitHub", "Jenkins", "Bitbucket", "postman", "netlify","Webhooks"],
     color: "text-primary"
   },
   {
     title: "AI / LLM Integration",
     icon: Bot,
-    skills: ["RAG", "Model Context Protocol (MCP)", "Web Scraping", "CRM Integrations"],
+    skills: ["RAG", "Model Context Protocol (MCP)", "Web Scraping", "LangChain","LangGraph"],
     color: "text-secondary"
   }
 ];

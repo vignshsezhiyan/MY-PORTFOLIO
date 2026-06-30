@@ -27,7 +27,7 @@ const Experience = () => {
                   <p className="text-lg text-primary font-semibold">Worktual Innovations Pvt Ltd</p>
                   <div className="flex items-center gap-2 text-muted-foreground mt-2">
                     <Calendar className="h-4 w-4" />
-                    <span>July 2023 – Present</span>
+                    <span>December 2023 – Present</span>
                   </div>
                 </div>
 
@@ -38,31 +38,36 @@ const Experience = () => {
                   <ul className="space-y-3 leading-relaxed">
                     <li className="flex items-start gap-3 rounded-md bg-background/70 px-3 py-2">
                       <span className="mt-1.5 h-2 w-2 rounded-full bg-gradient-primary flex-shrink-0" />
-                      <span>Designed and developed an AI-powered CCaaS platform integrated with CRM systems like Salesforce, HubSpot, Microsoft Dynamics, Zendesk, and Zoho, improving customer interaction workflows,
+                      <span>Developed and maintained AI-powered CCaaS (Contact Center as a Service) and UCaaS platforms using React.js, Node.js, Fastify, Python (FastAPI), and MySQL, delivering scalable customer engagement solutions.
                       </span>                      </li>
                     <li className="flex items-start gap-3 rounded-md bg-background/70 px-3 py-2">
                       <span className="mt-1.5 h-2 w-2 rounded-full bg-gradient-primary flex-shrink-0" />
-                      <span>Built AI chatbot integrations for e-commerce platforms including Shopify, BigCommerce, and Wix to automate customer support and enhance user engagement,
+                      <span>Designed and deployed a Model Context Protocol (MCP) server that exposed Worktual APIs as AI-callable tools, implementing OAuth 2.0, Role-Based Access Control (RBAC), and seamless integration with ChatGPT, Claude, and GitHub Copilot.
                       </span>
                     </li>
                     <li className="flex items-start gap-3 rounded-md bg-background/70 px-3 py-2">
                       <span className="mt-1.5 h-2 w-2 rounded-full bg-gradient-primary flex-shrink-0" />
-                      <span>Developed scalable REST APIs using Node.js and Fastify for CRM integrations and real-time scheduling systems with tools like Google Calendar, Outlook, and Calendly,
+                      <span>Built an AI-powered RAG chatbot supporting PDF and website URL knowledge sources by implementing document chunking, embedding generation, and vector search using ChromaDB, improving automated customer support.
                       </span>
                     </li>
                     <li className="flex items-start gap-3 rounded-md bg-background/70 px-3 py-2">
                       <span className="mt-1.5 h-2 w-2 rounded-full bg-gradient-primary flex-shrink-0" />
-                      <span> Implemented Zapier-based workflow automation enabling integration with 500+ third-party applications and reducing manual processes,
+                      <span>Integrated AI chatbot solutions with Shopify, BigCommerce, and Wix, enabling automated customer support, product recommendations, and sales assistance for e-commerce businesses.
                       </span>
                     </li>
                     <li className="flex items-start gap-3 rounded-md bg-background/70 px-3 py-2">
                       <span className="mt-1.5 h-2 w-2 rounded-full bg-gradient-primary flex-shrink-0" />
-                      <span>Built secure backend services using Node.js, Fastify, and MySQL with authentication using JWT and OAuth 2.0,
+                      <span>Developed scalable RESTful APIs and backend services using Node.js, Fastify, and FastAPI to integrate enterprise CRM platforms including Salesforce, HubSpot, Microsoft Dynamics 365, Zoho CRM, Zendesk, and Pipedrive, enabling real-time customer data synchronization.
                       </span>
                     </li>
                     <li className="flex items-start gap-3 rounded-md bg-background/70 px-3 py-2">
                       <span className="mt-1.5 h-2 w-2 rounded-full bg-gradient-primary flex-shrink-0" />
-                      <span>Contributed to a SaaS-based SEO and digital marketing platform by integrating APIs like DataForSEO, Serpstat, and Google Ads for real-time analytics
+                      <span>Published UCaaS and CCaaS APIs on the Zapier platform, enabling integrations with 500+ third-party applications and significantly reducing manual workflow and CRM synchronization efforts.
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-3 rounded-md bg-background/70 px-3 py-2">
+                      <span className="mt-1.5 h-2 w-2 rounded-full bg-gradient-primary flex-shrink-0" />
+                      <span>Improved customer service efficiency by reducing context switching through unified CRM integrations and automating support workflows, resulting in faster agent response times and increased operational productivity.
                       </span>
                     </li>
                   </ul>
