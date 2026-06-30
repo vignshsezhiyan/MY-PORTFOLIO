@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="VG portfolio favicon">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#4c1d95" />
-      <stop offset="100%" stop-color="#7c3aed" />
+      <stop offset="0%" stop-color="#1a4a94" />
+      <stop offset="100%" stop-color="#5a788e" />
     </linearGradient>
   </defs>
   <rect width="64" height="64" rx="14" fill="url(#bg)" />
-  <text x="32" y="40" text-anchor="middle" fill="#f8fafc" font-size="22" font-family="Verdana, sans-serif" font-weight="700" letter-spacing="1">VG</text>
+  <text x="32" y="40" text-anchor="middle" fill="#cf9d30" stroke="#ffffff" stroke-width="0.75" paint-order="stroke" font-size="22" font-family="Verdana, sans-serif" font-weight="700" letter-spacing="1">VG</text>
 </svg>
