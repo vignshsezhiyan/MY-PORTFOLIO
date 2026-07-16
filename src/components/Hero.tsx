@@ -34,7 +34,7 @@ const Hero = () => {
                 <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </Button>
               <Button variant="outline" size="lg" asChild>
-                <a href="/Vignesh-Govindhan-Fullstack-Developer.pdf" download="vignesh_resume.pdf">
+                <a href="/Vignesh-Govindhan-Fullstack-Developer.pdf" download='vignesh_resume'>
                   Download Resume
                 </a>
               </Button>

@@ -90,11 +90,11 @@ const Contact = () => {
             </div>
 
             <form
-              name="contact"
-              method="POST"
-              data-netlify="true"
-              action="/"
-              onSubmit={handleSubmit}
+              // name="contact"
+              method="POST" 
+              // data-netlify="true"
+              action="https://getform.io/f/7vz25lout4i"
+              // onSubmit={handleSubmit}
               className="space-y-6"
             >
               <div>
@@ -104,7 +104,7 @@ const Contact = () => {
                 </label>
                 <Input
                   id="name"
-                  name="name"
+                  name="fi-sender-fullName"
                   value={formData.name}
                   onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                   placeholder="Your name"
@@ -118,7 +118,7 @@ const Contact = () => {
                 </label>
                 <Input
                   id="email"
-                  name="email"
+                  name="fi-sender-email"
                   type="email"
                   value={formData.email}
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
@@ -133,7 +133,7 @@ const Contact = () => {
                 </label>
                 <Textarea
                   id="message"
-                  name="message"
+                  name="fi-text-message"
                   value={formData.message}
                   onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                   placeholder="Your message..."
@@ -146,11 +146,9 @@ const Contact = () => {
                 {isSubmitting ? "Sending..." : "Send Message"}
                 <Send className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </Button>
-            </form>
-
-            <div className="mt-8 pt-8 border-t border-border text-center">
+            </form>            <div className="mt-8 pt-8 border-t border-border text-center">
               <Button variant="outline" asChild>
-                <a href="/Vignesh-Govindhan-Fullstack-Developer.pdf" download="Vignesh-Govindhan.pdf">
+                <a href="/Vignesh-Govindhan-Fullstack-Developer.pdf" download='vignesh_resume'>
                   Download Resume
                 </a>
               </Button>

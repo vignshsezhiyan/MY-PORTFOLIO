@@ -17,13 +17,13 @@ const skillCategories = [
   {
     title: "Database",
     icon: Database,
-    skills: ["MySQL","ChromaDB","Redis"],
+    skills: ["MySQL","MongoDB","ChromaDB","Redis"],
     color: "text-secondary"
   },
   {
     title: "Authentication & Security",
     icon: Shield,
-    skills: ["JWT", "OAuth 2.0", "crypto"],
+    skills: ["JWT", "OAuth 2.0", "Crypto"],
     color: "text-secondary"
   },
   {
